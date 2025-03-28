@@ -1,0 +1,38 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #404040;
+  --color-darkred: #ce4650;
+  --max-width: 1280px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-smooth: always;
+  background-color: var(--color-black);
+}
+
+button {
+  background: transparent;
+  border: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
