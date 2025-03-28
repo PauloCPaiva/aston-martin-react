@@ -1,0 +1,35 @@
+.hero {
+  margin-top: 4rem;
+}
+
+.wrapperHero {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.contentHero {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contentHero h2 {
+  font-size: 30px;
+  color: var(--color-white);
+}
+
+.contentHero h2 span {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.contentHero p {
+  max-width: 35ch;
+  color: var(--color-white);
+  font-weight: 200;
+}
