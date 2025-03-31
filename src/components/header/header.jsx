@@ -19,20 +19,24 @@ const Header = () => {
           </button>
         </div>
         <button onClick={toggleMenu} id={styles.buttonMobile}>
-          <img src={menuActive ? iconCloser : styles.iconBars}  id={styles.menuIcons} alt="" />
+          <img
+            src={menuActive ? iconCloser : iconBars}
+            id={styles.menuIcons}
+            alt=""
+          />
         </button>
-        <nav className={menuActive ? styles.active: ""}>
+        <nav className={menuActive ? styles.active : ""}>
           <ul className={styles.ulMenu}>
-            <li className={styles.navLi} >
+            <li className={styles.navLi}>
               <a href="">Início</a>
             </li>
-            <li className={styles.navLi} >
+            <li className={styles.navLi}>
               <a href="">Carros</a>
             </li>
-            <li className={styles.navLi} >
+            <li className={styles.navLi}>
               <a href="">Manutenção</a>
             </li>
-            <li className={styles.navLi} >
+            <li className={styles.navLi}>
               <a href="">Novos</a>
             </li>
             <li className={styles.liBtn}>

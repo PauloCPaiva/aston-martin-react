@@ -1,5 +1,10 @@
 .Header {
   border-bottom: 2px solid var(--color-gray);
+  position: fixed;
+  width: 100%;
+  background-color: #000000bb;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .wrapperHeader {

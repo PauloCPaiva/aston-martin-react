@@ -1,5 +1,5 @@
 .hero {
-  margin-top: 4rem;
+ padding-top: 7rem;
 }
 
 .wrapperHero {
@@ -32,4 +32,13 @@
   max-width: 35ch;
   color: var(--color-white);
   font-weight: 200;
+}
+
+@media (max-width: 600px) {
+  .wrapperHero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
 }

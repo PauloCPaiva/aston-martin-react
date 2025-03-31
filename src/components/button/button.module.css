@@ -1,5 +1,6 @@
 .WrapperButton a{
     color: var(--color-white);
+    background-color: var(--color-black);
     border: 2px solid var(--color-white);
     padding: 10px 30px;
     border-radius: 10px;

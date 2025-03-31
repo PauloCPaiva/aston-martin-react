@@ -1,0 +1,34 @@
+.vantageWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.vantageContent p {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 45ch;
+}
+
+.btnVantage {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    
+  .vantageWrapper {
+     padding-bottom: 1rem; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .btnVantage {
+    display: flex;
+    justify-content: center;
+  }
+}

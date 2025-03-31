@@ -15,7 +15,7 @@ const Hero = () => {
             Por mais de meio século, o nome DBS significou apenas uma coisa: a
             produção definitiva do Aston Martin.
           </p>
-          <div className={styles.img}>
+          <div className={styles.imgHero}>
             <Button>SAIBA MAIS</Button>
           </div>
         </div>
