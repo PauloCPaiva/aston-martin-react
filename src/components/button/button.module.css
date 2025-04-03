@@ -10,4 +10,5 @@
 .WrapperButton a:hover{
     background-color: var(--color-white);
     color: var(--color-black);
+    transition: 0.3s ease-in-out;
 }

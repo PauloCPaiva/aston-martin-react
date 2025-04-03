@@ -16,7 +16,7 @@ const Hero = () => {
             produção definitiva do Aston Martin.
           </p>
           <div className={styles.imgHero}>
-            <Button>SAIBA MAIS</Button>
+            <Button>Saiba mais</Button>
           </div>
         </div>
         <div>
